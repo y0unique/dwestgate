@@ -1,13 +1,11 @@
-<!-- Change the value of lang="en" attribute if your website's language is not English.
-You can find the code of your language here - https://www.w3schools.com/tags/ref_language_codes.asp -->
 <!DOCTYPE html>
 <html lang="en">
     <head>        
-        <title>Spacia</title>
-        <meta name="description" content="Spacia">
-        <meta name="author" content="https://themeforest.net/user/bestlooker/portfolio">
+        <title>D West Gate</title>
+        <meta name="description" content="D West Gate">
+        <meta name="author" content="Zeraphm">
         <meta charset="utf-8">
-        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
         <!-- Favicons -->
@@ -30,7 +28,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         <!-- <link rel="stylesheet" href="css/colors-styles/color-blue.css"> -->
         <!-- <link rel="stylesheet" href="css/colors-styles/color-aqua.css"> -->
         <!-- <link rel="stylesheet" href="css/colors-styles/color-green.css"> -->
-        <!-- <link rel="stylesheet" href="css/colors-styles/color-yellow.css"> -->
+        <link rel="stylesheet" href="css/colors-styles/color-yellow.css">
         <!-- <link rel="stylesheet" href="css/colors-styles/color-orange.css"> -->
         <!-- <link rel="stylesheet" href="css/colors-styles/color-brown.css"> -->
         <!-- <link rel="stylesheet" href="css/colors-styles/color-purple.css"> -->
@@ -57,12 +55,12 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
         <div class="page">            
                         
             <!-- Navigation panel -->
-            <nav class="main-nav stick-fixed">
+            <nav class="main-nav main-nav stick-fixed">
                 <div class="full-wrapper relative clearfix">
                     
                     <!-- Logo ( * your text or image into link tag *) -->
                     <div class="nav-logo-wrap">
-                        <a href="#home" class="logo dark"><img src="images/logo-dark.png" width="86" height="27" alt="Logo" /></a>
+                        <a href="#home" class="logo dark"><img src="images/logo-dark.png" width="50" height="50" alt="Logo" /></a>
                     </div>
                     
                     <div class="mobile-nav" role="button" tabindex="0" aria-expanded="false"><i class="fa fa-bars"></i><span class="sr-only">Menu</span></div>
@@ -78,8 +76,6 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                             <li><a href="#benefits">Benefits</a></li>
                             <li><a href="#clients">Clients</a></li>
                             <li><a href="#contacts">Contacts</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="shortcodes.html">Shortcodes</a></li>
                         </ul>
                     </div>
                     
@@ -97,33 +93,81 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
             
                 <!-- Home Section -->
                 <section class="home-section" id="home">
-                    <div style="background-image: url(images/full-width-images/home-image-1.jpg)" class="image-bg parallax-2 js-height-full">
-                        
-                        <!-- Home Page Content -->
-                        <div class="home-content">
-                            <div class="home-text">
-                                                            
-                                <!-- Headings -->
-                                <ul class="headings clearlist js-word-sliding" aria-roledescription="carousel">
-                                    <li aria-roledescription="slide"><h1>We’re just creative people</h1></li>
-                                    <li aria-roledescription="slide"><h1>We love innovation design</h1></li>
-                                    <li aria-roledescription="slide"><h1>We’re Spacia digital agency</h1></li>
-                                </ul>
-                                
-                                <h2 class="home-description">Branding & Digital agency</h2>
-                                
-                                <!-- Call Action -->
-                                <div class="home-call-action animate">
-                                    <a href="#about-us" class="btn btn-spacia btn-border-w btn-large">Show Me More</a>
-                                    <span class="separ-space">&nbsp;</span>
-                                    <a href="http://themeforest.net/item/spacia-one-page-parallax-theme/6994440" target="_blank" class="btn btn-spacia btn-w btn-large">Purchase Now</a>
+                    
+                    <div class="slider-fittext">
+                        <ul class="home-image-slider" aria-roledescription="carousel">
+                            
+                            <!-- Slide -->
+                            <li style="background-image: url(images/full-width-images/home-image-3.jpg);" class="image-bg parallax-2 js-height-full" aria-roledescription="slide">
+                                <div class="bg-overlay-4"></div>
+                                <!-- Home Page Content -->
+                                <div class="home-content container">
+                                    <div class="home-text">
+                                        <div class="home-description large">Text</div>
+                                        <!-- Headings -->
+                                        <div class="headings">
+                                            <h1>Text</h1>
+                                        </div>
+                                        <!-- Call Action -->
+                                        <div class="home-call-action animate">
+                                            <a href="#about-us" class="btn btn-spacia btn-w btn-large">Show Me More</a>
+                                            <span class="separ-space">&nbsp;</span>
+                                            <a href="#about-us" class="btn btn-spacia btn-border-w btn-large">Purchase Now</a>
+                                        </div>
+                                    </div>
                                 </div>
+                                <!-- End Home Page Content -->
+                            </li>
+                            <!-- End Slide -->
+                            
+                            <!-- Slide -->
+                            <li style="background-image: url(images/full-width-images/section-bg-4.jpg);" class="image-bg parallax-2 js-height-full" aria-roledescription="slide">
+                                <div class="bg-overlay-5"></div>
+                                <!-- Home Page Content -->
+                                <div class="home-content container">
+                                    <div class="home-text">
+                                        <div class="home-description large">Text</div>
+                                        <!-- Headings -->
+                                        <div class="headings">
+                                            <h1>Text</h1>
+                                        </div>
+                                        <!-- Call Action -->
+                                        <div class="home-call-action animate">
+                                            <a href="#about-us" class="btn btn-spacia btn-glass btn-large">Text</a>
+                                            <span class="separ-space">&nbsp;</span>
+                                            <a href="#about-us" class="btn btn-spacia btn-glass btn-large">Text</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Home Page Content -->
+                            </li>
+                            <!-- End Slide -->
+                            
+                            <!-- Slide -->
+                            <li style="background-image: url(images/full-width-images/home-image-2.jpg);" class="image-bg parallax-2 js-height-full" aria-roledescription="slide">
+                                <div class="bg-overlay-4"></div>
                                 
-                            </div>
-                        </div>
-                        <!-- End Home Page Content -->
-                        
+                                <!-- Home Page Content -->
+                                <div class="home-content container">
+                                    <div class="home-text">
+                                        <!-- Headings -->
+                                        <div class="headings">
+                                            <h1>Text</h1>
+                                        </div>
+                                        <h2 class="home-description">Text</h2>
+                                        <!-- Call Action -->
+                                        <div class="home-call-action animate">
+                                            <a href="#about-us" class="btn btn-spacia btn-border-w btn-large">Text</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Home Page Content -->
+                            </li>
+                            <!-- End Slide -->
+                            
+                        </ul>
                     </div>
+                    
                 </section>
                 <!-- End Home Section -->
     
@@ -207,150 +251,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                 </section>
                 <!-- End Some Facts Section -->
                 
-                <!-- Team Section -->
-                <section style="background-image: url(images/full-width-images/section-bg-2.jpg);" class="page-section dark-bg image-color-bg team-section" id="team">
-                    <div class="bg-overlay-2"></div>
-                    <div class="container bg-content">
-                        
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-                                
-                                <h2 class="section-title margin-top-null">
-                                    Team
-                                </h2>
-                                
-                                <h3 class="section-heading">We’re the best professionals in this field</h3>
-                                
-                                <p class="section-text">
-                                     Mauris tincidunt orci in augue adipiscing interdum. Phasellus luctus commodo ullamcorper. Nullam tempor erat.  Etiam aliquam velit a posuere rhoncus. Praesent sit amet dui non quam facilisis lobortis.
-                                </p>
-                                
-                            </div>
-                        </div>
-                        
-                        <div class="team-grid">
-                            
-                            <!-- Team Item -->
-                            <div class="team-item-wrap">
-                                <div class="team-item js-clickable go-fade-in" tabindex="0" role="button">
-                                    <!-- Photo, Name and Status -->
-                                    <div class="team-photo"><img src="images/team/team-1.jpg" width="150" height="150" alt="Photo of Mike Smith" /></div>
-                                    <div class="team-name">Mike Smith</div>
-                                    <div class="team-status">Creative Director</div>
-                                </div>                            
-                                <div class="team-cv">
-                                    <div class="team-description">
-                                        <p>
-                                            Maecenas euismod nisi a dictum consequat. Vestibulum ut purus id est porta porta. Nunc volutpat ac lectus ut aliquet. Nulla a rutrum velit. Etiam at sem ut nisi porta pulvinar. 
-                                        </p>
-                                        <p>
-                                            Fusce quis vulputate ligula, eget aliquam nisl. Vivamus at neque sem. Sed scelerisque dictum vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ligula augue, condimentum rutrum quam id, ullamcorper luctus eros. 
-                                        </p>
-                                    </div>
-                                    <address class="team-contacts">
-                                        <strong>Contacts</strong>
-                                        <br/>
-                                        <a href="mailto:spacia@lookandfeel.pro">spacia@lookandfeel.pro</a>
-                                        <br/>
-                                        <abbr title="Phone">
-                                            P:
-                                        </abbr>
-                                        (123) 456-7890
-                                    </address>
-                                    <div class="team-social-links">
-                                        <a href="#" title="Facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
-                                        <a href="#" title="Twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
-                                        <a href="#" title="LinkedIn" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#" title="Pinterest" aria-label="Pinterest"><i class="fa fa-pinterest"></i></a>
-                                        <a href="#" title="E-mail" aria-label="E-mail"><i class="fa fa-envelope"></i></a>
-                                    </div>
-                                </div> 
-                            </div>                           
-                            <!-- End Team Item -->
-                            
-                            <!-- Team Item -->
-                            <div class="team-item-wrap">
-                                <div class="team-item js-clickable go-fade-in" tabindex="0" role="button">
-                                    <!-- Photo, Name and Status -->
-                                    <div class="team-photo"><img src="images/team/team-2.jpg" width="150" height="150" alt="" /></div>
-                                    <div class="team-name">John Doe</div>
-                                    <div class="team-status">Senior Developer</div>
-                                </div>
-                                <div class="team-cv">
-                                    <div class="team-description">
-                                        <p>
-                                            Maecenas euismod nisi a dictum consequat. Vestibulum ut purus id est porta porta. Nunc volutpat ac lectus ut aliquet. Nulla a rutrum velit. Etiam at sem ut nisi porta pulvinar. 
-                                        </p>
-                                        <p>
-                                            Fusce quis vulputate ligula, eget aliquam nisl. Vivamus at neque sem. Sed scelerisque dictum vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ligula augue, condimentum rutrum quam id, ullamcorper luctus eros. 
-                                        </p>
-                                    </div>
-                                    <address class="team-contacts">
-                                        <strong>Contacts</strong>
-                                        <br/>
-                                        <a href="mailto:spacia@lookandfeel.pro">spacia@lookandfeel.pro</a>
-                                        <br/>
-                                        <abbr title="Phone">
-                                            P:
-                                        </abbr>
-                                        (123) 456-7890
-                                    </address>
-                                    <div class="team-social-links">
-                                        <a href="#" title="Facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
-                                        <a href="#" title="Twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
-                                        <a href="#" title="LinkedIn" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#" title="Pinterest" aria-label="Pinterest"><i class="fa fa-pinterest"></i></a>
-                                        <a href="#" title="E-mail" aria-label="E-mail"><i class="fa fa-envelope"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Team Item -->
-                            
-                            <!-- Team Item -->
-                            <div class="team-item-wrap">
-                                <div class="team-item js-clickable go-fade-in" tabindex="0" role="button">
-                                    <!-- Photo, Name and Status -->
-                                    <div class="team-photo"><img src="images/team/team-3.jpg" width="150" height="150" alt="" /></div>
-                                    <div class="team-name">Jessica Connor</div>
-                                    <div class="team-status">Junior Designer</div>
-                                </div>
-                                <div class="team-cv">
-                                    <div class="team-description">
-                                        <p>
-                                            Maecenas euismod nisi a dictum consequat. Vestibulum ut purus id est porta porta. Nunc volutpat ac lectus ut aliquet. Nulla a rutrum velit. Etiam at sem ut nisi porta pulvinar. 
-                                        </p>
-                                        <p>
-                                            Fusce quis vulputate ligula, eget aliquam nisl. Vivamus at neque sem. Sed scelerisque dictum vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas ligula augue, condimentum rutrum quam id, ullamcorper luctus eros. 
-                                        </p>
-                                    </div>
-                                    <address class="team-contacts">
-                                        <strong>Contacts</strong>
-                                        <br/>
-                                        <a href="mailto:spacia@lookandfeel.pro">spacia@lookandfeel.pro</a>
-                                        <br/>
-                                        <abbr title="Phone">
-                                            P:
-                                        </abbr>
-                                        (123) 456-7890
-                                    </address>
-                                    <div class="team-social-links">
-                                        <a href="#" title="Facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
-                                        <a href="#" title="Twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
-                                        <a href="#" title="LinkedIn" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#" title="Pinterest" aria-label="Pinterest"><i class="fa fa-pinterest"></i></a>
-                                        <a href="#" title="E-mail" aria-label="E-mail"><i class="fa fa-envelope"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Team Item -->
-                            
-                        </div>
-                        
-                        <!-- Container for opened team item  -->
-                        <div class="team-opened-wrap" id="team-opened-wrap" ></div>                    
-                    </div>
-                </section>
-                <!-- Team Section -->
+              
                 
                 <!-- Services Section -->
                 <section class="page-section" id="services">
@@ -390,13 +291,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                                 </div>
                                                 <div class="service-full">
                                                     <ul class="sf-list">
-                                                        <li>Audit</li>
-                                                        <li>Concept</li>
-                                                        <li>Marketing</li>
-                                                        <li>PR</li>
+                                                        <li>Text</li>
                                                     </ul>
                                                     <div class="sf-description">
-                                                        Vivamus ut tellus ut tortor posuere eleifend ac a massa. Vestibulum convallis leo nec diam ultrices, quis tempor tortor commodo. 
+                                                        Text 
                                                     </div>                                                 
                                                 </div>
                                                 <div class="service-more">
@@ -428,13 +326,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                                 <!-- Full Service Description -->
                                                 <div class="service-full">
                                                     <ul class="sf-list">
-                                                        <li>UX Design</li>
-                                                        <li>UI Design</li>
-                                                        <li>Web Design</li>
-                                                        <li>Interactive Design</li>
+                                                        <li>Text</li>
                                                     </ul>
                                                     <div class="sf-description">
-                                                        Vivamus ut tellus ut tortor posuere eleifend ac a massa. Vestibulum convallis leo nec diam ultrices, quis tempor tortor commodo. 
+                                                        Text. 
                                                     </div>                                                 
                                                 </div>
                                                 
@@ -469,13 +364,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                                 <!-- Full Service Description -->
                                                 <div class="service-full">
                                                     <ul class="sf-list">
-                                                        <li>HTML5</li>
-                                                        <li>CSS3</li>
-                                                        <li>Js, Jquery</li>
-                                                        <li>PHP, Wordpress</li>
+                                                        <li>Text</li>
                                                     </ul>
                                                     <div class="sf-description">
-                                                        Vivamus ut tellus ut tortor posuere eleifend ac a massa. Vestibulum convallis leo nec diam ultrices, quis tempor tortor commodo. 
+                                                        Text.
                                                     </div>                                                 
                                                 </div>
                                                 
@@ -508,12 +400,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                                                 <!-- Full Service Description -->
                                                 <div class="service-full">
                                                     <ul class="sf-list">
-                                                        <li>Portraits</li>
-                                                        <li>Scenic Photography</li>
-                                                        <li>Photo Retouching</li>
+                                                        <li>Text</li>
                                                     </ul>
                                                     <div class="sf-description">
-                                                        Vivamus ut tellus ut tortor posuere eleifend ac a massa. Vestibulum convallis leo nec diam ultrices, quis tempor tortor commodo. 
+                                                        Text. 
                                                     </div>                                                 
                                                 </div>
                                                 
@@ -943,10 +833,10 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                         
                         <!-- Copy logos row if you need more logos -->
                         <div class="clients-logos-row">
-                            <a href="#" class="client-item"><img src="images/clients-logos/client-1.png" alt="Client1" /></a>
-                            <a href="#" class="client-item"><img src="images/clients-logos/client-2.png" alt="Client2" /></a>
-                            <a href="#" class="client-item"><img src="images/clients-logos/client-3.png" alt="Client3" /></a>
-                            <a href="#" class="client-item"><img src="images/clients-logos/client-4.png" alt="Client4" /></a>
+                            <a href="javascript:void(0)" class="client-item"><img src="images/apple-touch-icon-72x72.png" alt="Client1" /></a>
+                            <a href="javascript:void(0)" class="client-item"><img src="images/apple-touch-icon-72x72.png" alt="Client2" /></a>
+                            <a href="javascript:void(0)" class="client-item"><img src="images/apple-touch-icon-72x72.png" alt="Client3" /></a>
+                            <a href="javascript:void(0)" class="client-item"><img src="images/apple-touch-icon-72x72.png" alt="Client4" /></a>
                         </div>
                         
                     </div>
@@ -1110,7 +1000,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     <!-- Google Map -->
                     <div class="google-map">
                         <h4 class="sr-only">Map</h4>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12286.715636833376!2d-75.59837531200412!3d39.65694025682884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c703f3d191cf13%3A0xf4674106f987fe3a!2s245+Quigley+Blvd+Ste+K%2C+New+Castle%2C+DE+19720%2C+USA!5e0!3m2!1sen!2sua!4v1530266633608" width="600" height="450" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1147.9109785905164!2d120.9823240495116!3d14.593553511942908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca19339bc79b%3A0x880842b6cc257617!2sDepED%20Manila%20Division%20Office!5e0!3m2!1sen!2sph!4v1709082472044!5m2!1sen!2sph" width="600" height="450" style="border:0" allowfullscreen></iframe>
                     </div>                
                     <!-- End Google Map -->
                     
@@ -1209,7 +1099,7 @@ You can find the code of your language here - https://www.w3schools.com/tags/ref
                     
                     <!-- Copyright -->
                     <div class="footer-copy">
-                        © Spacia 2020. Made with love for great people.
+                        © <?php echo date("Y"); ?> D WEST GATE <i class="fa fa-heart-o" aria-hidden="true"></i>
                     </div>
                     <!-- End Copyright -->
                     

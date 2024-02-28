@@ -176,7 +176,7 @@ iframe{
     position: fixed;
     top: 0;
     left: 0;
-    background: #151515;
+    background: #ffffff;
     z-index: 10000;    
 }
 .page-loader b{

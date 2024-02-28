@@ -729,11 +729,9 @@
                                     Contacts
                                 </h2>
                                 
-                                <h3 class="section-heading">Text</h3>
+                                <!-- <h3 class="section-heading">Text</h3> -->
                                 
-                                <p class="section-text">
-                                    Text
-                                </p>
+                                <!-- <p class="section-text">Text</p> -->
                                 
                             </div>
                         </div>
@@ -749,7 +747,7 @@
                                     </h4>
                                     
                                     <!-- Enter your phone number here -->
-                                    <div class="phone-number">1234-567-890</div>
+                                    <div class="phone-number">0287425515</div>
                                     
                                 </div>
                                 
@@ -767,7 +765,7 @@
                                         
                                         <div class="contact-text">
                                             <!-- Enter your e-mail here -->
-                                            <a href="tel:+1234-567-890">+1234-567-890</a>
+                                            <a href="tel:+1234-567-890">09171739910<br>09171897294</a>
                                         </div>
                                         
                                     </div>
@@ -800,7 +798,7 @@
                                         
                                         <div class="contact-text">
                                             <!-- Enter your address here -->
-                                            123, 123 St. Sample Country
+                                            1368 Instruccion St., Sampaloc, Manila
                                         </div>
                                         
                                     </div>
@@ -813,7 +811,7 @@
                     <!-- Google Map -->
                     <div class="google-map">
                         <h4 class="sr-only">Map</h4>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1147.9109785905164!2d120.9823240495116!3d14.593553511942908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca19339bc79b%3A0x880842b6cc257617!2sDepED%20Manila%20Division%20Office!5e0!3m2!1sen!2sph!4v1709082472044!5m2!1sen!2sph" width="600" height="450" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.6289008884037!2d120.99103337580544!3d14.620203776595014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b60f4c0a0f47%3A0x8af11ada37b53afe!2s1368%20Instruccion%20St%2C%20Sampaloc%2C%20Manila%2C%201008%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1709105777529!5m2!1sen!2sph" width="600" height="450" style="border:0" allowfullscreen></iframe>
                     </div>                
                     <!-- End Google Map -->
                     

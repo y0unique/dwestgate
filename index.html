@@ -70,9 +70,9 @@
                         <ul class="clearlist scroll-nav">
                             <li class="active"><a href="#home">Home</a></li>
                             <li><a href="#about-us">About us</a></li>
-                            <li><a href="#team">Text</a></li>
+                            <li><a href="javascript:void(0)">Text</a></li>
                             <li><a href="#services">Text</a></li>
-                            <li><a href="#works">Text</a></li>
+                            <li><a href="javascript:void(0)">Text</a></li>
                             <li><a href="#benefits">Text</a></li>
                             <li><a href="#clients">Text</a></li>
                             <li><a href="#contacts">Contacts</a></li>

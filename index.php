@@ -62,6 +62,10 @@
                     <div class="nav-logo-wrap">
                         <a href="#home" class="logo dark"><img src="images/logo-dark.png" width="50" height="50" alt="Logo" /></a>
                     </div>
+                    <div class="inner-nav desktop-nav">
+                        <ul class="clearlist scroll-nav">
+                            <li><a href="javascript:void(0)">D West Gate</a></li>
+                        </ul></div>
                     
                     <div class="mobile-nav" role="button" tabindex="0" aria-expanded="false"><i class="fa fa-bars"></i><span class="sr-only">Menu</span></div>
                     
@@ -760,7 +764,7 @@
                                         
                                         <div class="contact-icon">
                                             <!-- Enter your e-mail here -->
-                                            <a href="tel:+1234-567-890"><i class="fa fa-phone"></i></a>
+                                            <a href="tel:+1234-567-890"><i class="fa fa-mobile"></i></a>
                                         </div>
                                         
                                         <div class="contact-text">

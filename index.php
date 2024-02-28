@@ -182,10 +182,10 @@
                                     About us
                                 </h2>
                                 
-                                <h3 class="section-heading">We’re branding &amp; digital studio from New York</h3>
+                                <h3 class="section-heading">Text</h3>
                                 
                                 <p class="section-text margin-bot-null">
-                                    Tincidunt orci in augue adipiscing interdum. Phasellus luctus commodo ullamcorper. Nullam ut tempor erat. Aenean mollis eleifend mauris, eu iaculis dui semper. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse hendrerit diam id pretium consectetur.
+                                    Text
                                 </p>
                                 
                             </div>
@@ -198,27 +198,27 @@
                 <section style="background-image: url(images/full-width-images/section-bg-1.jpg);" class="small-section dark-bg image-color-bg" id="counts">
                     <div class="bg-overlay-1"></div>
                         <div class="container bg-content">
-                            <h3 class="small-section-heading">How about some fun facts?</h3>
+                            <h3 class="small-section-heading">Text</h3>
                             <!-- Counters -->
                             <div class="row">
                                 
                                 <!-- Counter Item -->
                                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                                    <div class="count-number">73</div>
+                                    <div class="count-number">123</div>
                                     <div class="count-icon">
                                         <i class="fa fa-briefcase"></i>
                                     </div>
-                                    <div class="count-title">Projects</div>                                
+                                    <div class="count-title">Text</div>                                
                                 </div>
                                 <!-- End Counter Item -->
                                 
                                 <!-- Counter Item -->
                                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                                    <div class="count-number">133</div>
+                                    <div class="count-number">123</div>
                                     <div class="count-icon">
                                         <i class="fa fa-smile-o"></i>
                                     </div>
-                                    <div class="count-title">Happy Clients</div>                                
+                                    <div class="count-title">Text</div>                                
                                 </div>
                                 <!-- End Counter Item -->
                                 
@@ -227,21 +227,21 @@
                                 
                                 <!-- Counter Item -->
                                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                                    <div class="count-number">120</div>
+                                    <div class="count-number">123</div>
                                     <div class="count-icon">
                                         <i class="fa fa-coffee"></i>
                                     </div>
-                                    <div class="count-title">Coffee Cups</div>                                
+                                    <div class="count-title">Text</div>                                
                                 </div>
                                 <!-- End Counter Item -->
                                 
                                 <!-- Counter Item -->
                                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-                                    <div class="count-number">95</div>
+                                    <div class="count-number">123</div>
                                     <div class="count-icon">
                                         <i class="fa fa-pencil"></i>
                                     </div>
-                                    <div class="count-title">Spoiled pencils</div>                                
+                                    <div class="count-title">Text</div>                                
                                 </div>
                                 <!-- End Counter Item -->
                                 

@@ -185,13 +185,7 @@ iframe{
     width: 150px;
     height: 150px;
     background: #ffffff url(../images/page-loader.gif) no-repeat center center;
-    margin: -30px 0 0 -30px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);

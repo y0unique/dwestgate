@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Home</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css"><!-- / bootstrap styles -->
+        <link rel="stylesheet" href="css/style.css"><!-- / template styles -->
+        <link rel="stylesheet" href="css/style-responsive.css"><!-- / responsive styles -->
+
+        <!-- JS -->
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+            <a class="popupimage" href="J&T_TARPAULIN_72x72.png">
+                <img class="" src="J&T_TARPAULIN_72x72.png" alt="partner1" />
+            </a>
+        
+            <div class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <img src="">
+                    </div>
+                </div>
+            </div>
+        
+            <script>
+                $(document).ready(function () {
+                    $('.popupimage').click(function (event) {
+                        event.preventDefault();
+                        $('.modal img').attr('src', $(this).attr('href'));
+                        $('.modal').modal('show');
+                        return false;
+                    });
+                }); 
+            </script>
+    </body>
+</html>

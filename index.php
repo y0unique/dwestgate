@@ -102,8 +102,8 @@
 
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Certifications</h2>
-          <img src="assets/img/full-width-images/certified.png" alt="">
+          <h2>Certifications <img src="assets/img/full-width-images/certified.png" class="img-responsive" width="55" height="50" alt=""></h2>
+          
           <p>We are certified with the following</p>
         </div><!-- End Section Title -->
 

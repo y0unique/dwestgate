@@ -217,4 +217,28 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  document.querySelectorAll('#navmenu a').forEach(navmenu => {
+  navmenu.addEventListener('click', function (e) {
+    let targetId = this.getAttribute('href'); // Get target section ID
+    if (targetId.startsWith('#') && document.querySelector(targetId)) {
+      e.preventDefault(); // Prevent default anchor behavior
+      let section = document.querySelector(targetId);
+      let scrollMarginTop = getComputedStyle(section).scrollMarginTop;
+      
+      window.scrollTo({
+        top: section.offsetTop - parseInt(scrollMarginTop),
+        behavior: 'smooth'
+      });
+
+      // Remove the # from the URL without refreshing the page
+      history.replaceState(null, null, ' ');
+    }
+
+    // Close mobile nav if open
+    if (document.querySelector('.mobile-nav-active')) {
+      mobileNavToogle();
+    }
+  });
+});
+
 })();

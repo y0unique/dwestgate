@@ -29,6 +29,11 @@
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
 
+    
+
+    <!-- jQuery (Make sure jQuery is included in your project) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <!-- =======================================================
     * Template Name: KnightOne
     * Template URL: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/
@@ -57,6 +62,27 @@
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
+        
+<script>
+    $(document).ready(function () {
+        $(".scroll-to").click(function (event) {
+            event.preventDefault(); // Prevent the default jump-to behavior
+
+            var targetID = $(this).attr("href"); // Get the href value (e.g., #about)
+            var targetPosition = $(targetID).offset().top; // Get the target position
+
+            $("html, body").animate(
+                {
+                    scrollTop: targetPosition,
+                },
+                800, // Animation speed in milliseconds
+                function () {
+                    history.replaceState(null, null, " "); // Remove # from the URL
+                }
+            );
+        });
+    });
+</script>
       </div>
     </header>
 
@@ -324,9 +350,6 @@
                   </div>
               </div>
             </div>
-
-            <!-- jQuery (Make sure jQuery is included in your project) -->
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
             <script>
                 $(document).ready(function () {
                     $("#toggleFooter").click(function () {
@@ -337,14 +360,12 @@
                     });
                 });
             </script>
-
-
           </div>
-
         </div>
 
       </div>
     </footer>
+    
 
     <!-- Scroll Top -->
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

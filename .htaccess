@@ -4,5 +4,6 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^$ index.php [L]
     RewriteRule ^([^\.]+)$ $1.php [NC,L]
+    DirectoryIndex index.php
     AddType application/x-httpd-php .php .html
 </IfModule>

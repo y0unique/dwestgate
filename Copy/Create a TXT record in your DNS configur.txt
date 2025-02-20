@@ -1,0 +1,7 @@
+Create a TXT record in your DNS configuration for the following hostnam_
+
+github-pages-challenge-y0unique
+134f160e5813b9a80367ed2cc98fcf
+
+Use this code for the value of the TXT record
+134f160e5813b9a80367ed2cc98fcf

@@ -116,7 +116,7 @@
                 <div class="icon">
                   <i class="bi bi-briefcase-fill"></i>
                 </div>
-                <a href="#" class="stretched-link">
+                <a href="javascript:void(0)" class="stretched-link">
                   <h3>BIR Registered</h3>
                 </a>
               </div>
@@ -125,9 +125,9 @@
             <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="bi bi-broadcast"></i>
+                  <i class="bi bi-laptop"></i>
                 </div>
-                <a href="#" class="stretched-link">
+                <a href="javascript:void(0)" class="stretched-link">
                   <h3>PhilGeps Registered</h3>
                 </a>
               </div>
@@ -136,9 +136,9 @@
             <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="300">
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="bi bi-easel"></i>
+                  <i class="bi bi-patch-check"></i>
                 </div>
-                <a href="#" class="stretched-link">
+                <a href="javascript:void(0)" class="stretched-link">
                   <h3>Mayor's Permit</h3>
                 </a>
               </div>
@@ -147,24 +147,24 @@
             <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="400">
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="bi bi-bounding-box-circles"></i>
+                  <i class="bi bi-globe"></i>
                 </div>
-                <a href="#" class="stretched-link">
+                <a href="javascript:void(0)" class="stretched-link">
                   <h3>Department of trade and industry</h3>
                 </a>
-                <a href="#" class="stretched-link"></a>
+                <a href="javascript:void(0)" class="stretched-link"></a>
               </div>
             </div><!-- End Service Item -->
 
             <div class="col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="500">
               <div class="service-item position-relative">
                 <div class="icon">
-                  <i class="bi bi-calendar4-week"></i>
+                  <i class="bi bi-award"></i>
                 </div>
-                <a href="#" class="stretched-link">
+                <a href="javascript:void(0)" class="stretched-link">
                   <h3>Business Permit</h3>
                 </a>
-                <a href="#" class="stretched-link"></a>
+                <a href="javascript:void(0)" class="stretched-link"></a>
               </div>
             </div><!-- End Service Item -->
 
@@ -221,7 +221,7 @@
                 <div class="portfolio-info">
                   <h4>Partner 1</h4>
                   <p>J & T</p>
-                  <a href="assets/img/partners/j_and_t.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/partners/j_and_t.png" title="Partner 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
                 </div>
               </div><!-- End Portfolio Item -->

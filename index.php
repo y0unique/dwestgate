@@ -62,27 +62,6 @@
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-        
-<script>
-    $(document).ready(function () {
-        $(".scroll-to").click(function (event) {
-            event.preventDefault(); // Prevent the default jump-to behavior
-
-            var targetID = $(this).attr("href"); // Get the href value (e.g., #about)
-            var targetPosition = $(targetID).offset().top; // Get the target position
-
-            $("html, body").animate(
-                {
-                    scrollTop: targetPosition,
-                },
-                800, // Animation speed in milliseconds
-                function () {
-                    history.replaceState(null, null, " "); // Remove # from the URL
-                }
-            );
-        });
-    });
-</script>
       </div>
     </header>
 

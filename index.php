@@ -254,13 +254,13 @@
           <div class="row gy-4">
 
             <div class="col-lg-4">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>1368-A Instruccion St., Sampaloc, Manila</p>
-                </div>
-              </div><!-- End Info Item -->
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bi bi-geo-alt flex-shrink-0"></i>
+                    <div>
+                    <h3>Address</h3>
+                    <p>1368-A Instruccion St., Sampaloc, Manila</p>
+                    </div>
+                </div><!-- End Info Item -->
 
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-telephone flex-shrink-0"></i>
@@ -280,8 +280,8 @@
 
             </div>
 
-            <div class="col-lg-8">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.6289008884037!2d120.99103337580544!3d14.620203776595014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b60f4c0a0f47%3A0x8af11ada37b53afe!2s1368%20Instruccion%20St%2C%20Sampaloc%2C%20Manila%2C%201008%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1709105777529!5m2!1sen!2sph" width="100%" height="450" style="border:0" allowfullscreen></iframe>
+            <div class="col-lg-8" data-aos="fade-up">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.6289008884037!2d120.99103337580544!3d14.620203776595014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b60f4c0a0f47%3A0x8af11ada37b53afe!2s1368%20Instruccion%20St%2C%20Sampaloc%2C%20Manila%2C%201008%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1709105777529!5m2!1sen!2sph" width="100%" height="450" style="border:0" allowfullscreen loading="lazy"></iframe>
             </div><!-- End Contact Form -->
 
           </div>
